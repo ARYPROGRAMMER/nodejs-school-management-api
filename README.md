@@ -2,6 +2,12 @@
 
 A robust Node.js/Express API to manage schools and calculate distance. Supports both **MySQL** and **Neon PostgreSQL**.
 
+## Live Deployment
+- **Live URL**: [https://cautious-ermengarde-arya007-0f824957.koyeb.app](https://cautious-ermengarde-arya007-0f824957.koyeb.app)
+- **Example Endpoint**: [https://cautious-ermengarde-arya007-0f824957.koyeb.app/api/schools/all](https://cautious-ermengarde-arya007-0f824957.koyeb.app/api/schools/all)
+
+*Note: The application is deployed on Koyeb and is kept awake (prevented from sleeping) by a GitHub Actions workflow that pings the server every 30 minutes.*
+
 ## Setup
 1. `npm install`
 2. Copy `.env.example` to `.env` and fill in credentials.

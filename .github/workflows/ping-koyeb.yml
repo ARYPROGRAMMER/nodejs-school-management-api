@@ -1,0 +1,13 @@
+name: Ping Koyeb App
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: 
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Koyeb Endpoint
+        run: curl -s https://cautious-ermengarde-arya007-0f824957.koyeb.app/api/schools/all > /dev/null
